@@ -1,0 +1,134 @@
+.login_main_div {
+    height: 100vh;
+    width: 100%;
+    background: rgb(232, 225, 225);
+    padding-top: 90px;
+    
+}
+
+.login_div {
+    display: flex;
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 85%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 1px gray;
+    
+}
+
+.login_input {
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 9% 15%;
+    background: white;
+}
+
+.login_input input {
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(242,242,242);
+    border: none;
+}
+
+.login_img {
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid rgb(255, 25, 0); */
+    background: #d6d5f0f7;
+    justify-content: center;
+    text-align: center;
+}
+
+.log_btn {
+    background: #2d27a1f7;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+}
+.log_btn:hover {
+    background: #4842b9f7;
+}
+
+.loginicon {
+    width: 85%;
+}
+
+.div_for_icon {
+    margin-top: 30%;
+}
+.div_for_icon_sm{
+    display: none;
+}
+
+@media screen and (max-width:660px) {
+    .login_img {
+        display: none;
+    }
+    .login_input {
+        height: 100%;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        padding: 10% 5%;
+        background: white;
+    }
+    .login_div {
+        display: flex;
+        width: 100%;
+        /* border: 1px solid black; */
+        height: 85%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_for_icon_sm{
+        display: block;
+    }
+    .loginicon_sm{
+        width: 70%;
+    }
+    .div_for_icon_sm{
+        margin-top: 30px;
+        display: block;
+    }
+    .login_input {
+        width: 80%;
+    }
+}
+@media screen and (max-width:480px) {
+    .login_main_div {
+        padding-top: 50px;
+    }
+    .login_div {
+        width: 100%;
+    }
+    .login_input {
+        width: 90%;
+    }
+    .div_for_icon_sm{
+        margin-top: 50px;
+        display: block;
+    }
+}
+@media screen and (min-width:660px) and (max-width:1000px) {
+    .login_input {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 14% 11%;
+        background: white;
+    }
+    .login_img {
+        height: 100%;
+        width: 40%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 40px;
+    }
+}
